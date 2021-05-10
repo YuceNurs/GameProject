@@ -1,8 +1,8 @@
 package Entities;
-
+import Abstract.Entity;
 import java.time.LocalDate;
 
-public class Customer {
+public class Customer implements Entity {
 	int id;
 	String firstName;
 	String lastName;
